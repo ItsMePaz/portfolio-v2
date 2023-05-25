@@ -28,7 +28,7 @@ function Header() {
         </li>
         <li>
           <a class="hover:text-amber-600 transition-shadow hover:cursor-pointer group duration-300">
-            PROJECTS
+            PROJECTS & EXPERIENCES
             <span class="block max-w-0 group-hover:max-w-full transition-all duration-500 h-1 bg-black"></span>
           </a>
         </li>
