@@ -1,9 +1,9 @@
 import React from "react";
 import logo from "./logo.png";
 
-function Header() {
+function Header({ resume }) {
   return (
-    <div class="flex bg-black-400 p-5 space-x-9 justify-between shadow-lg">
+    <div class="fixed top-0 flex bg-black-400 p-5 space-x-9 justify-between shadow-lg bg-white w-screen">
       <div class="">
         <img src={logo} alt="LOGO" class="w-44 bg-fixed" />
       </div>
@@ -40,7 +40,7 @@ function Header() {
         </li>
       </ul>
       <a //RESUME LINK
-        href="https://drive.google.com/file/d/179bWH96XMtv2L_dw6EvOtJPY6lytvkHp/view?usp=sharing"
+        href={resume}
         target="_blank"
       >
         <div class="bg-black h-9 text-white p-6 flex flex-col justify-center items-center focus:outline-none focus:ring focus:ring-violet-300 font-mono font-semibold text-lg hover:text-amber-600 transition-shadow hover:cursor-pointer">
