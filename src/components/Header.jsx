@@ -3,7 +3,7 @@ import logo from "./logo.png";
 
 function Header({ resume }) {
   return (
-    <div class="fixed top-0 flex bg-black-400 p-5 space-x-9 justify-between shadow-lg bg-white w-screen z-10">
+    <div class="lg:fixed lg:top-0 lg:flex lg:bg-black-400 lg:p-5 lg:space-x-9 lg:justify-between shadow-lg bg-white w-screen z-10">
       <div class="">
         <img src={logo} alt="LOGO" class="w-44 bg-fixed" />
       </div>
@@ -31,7 +31,7 @@ function Header({ resume }) {
         </li>
         <li>
           <a class="hover:text-amber-600 transition-shadow hover:cursor-pointer group duration-300">
-            PROJECTS & EXPERIENCES
+            PROJECTS
             <span class="block max-w-0 group-hover:max-w-full transition-all duration-500 h-1 bg-black"></span>
           </a>
         </li>
